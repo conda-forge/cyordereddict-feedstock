@@ -5,7 +5,7 @@ Home: https://github.com/shoyer/cyordereddict
 
 Package license: BSD License
 
-Feedstock license: BSD
+Feedstock license: BSD 3-Clause
 
 Summary: Cython implementation of Python's collections.OrderedDict
 
@@ -69,9 +69,15 @@ Terminology
 
 Current build status
 ====================
+
 Linux: [![Circle CI](https://circleci.com/gh/conda-forge/cyordereddict-feedstock.svg?style=svg)](https://circleci.com/gh/conda-forge/cyordereddict-feedstock)
 OSX: [![TravisCI](https://travis-ci.org/conda-forge/cyordereddict-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/cyordereddict-feedstock) 
 Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/cyordereddict-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/cyordereddict-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/cyordereddict/badges/version.svg)](https://anaconda.org/conda-forge/cyordereddict)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/cyordereddict/badges/downloads.svg)](https://anaconda.org/conda-forge/cyordereddict)
 
 
 Updating cyordereddict-feedstock
