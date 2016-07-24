@@ -8,7 +8,7 @@ source:
     md5: 8924331ec3bb754c92fd2603d3a29489
 
 build:
-    number: 0
+    number: 1
     script: python setup.py install
 
 requirements:
@@ -22,10 +22,12 @@ test:
     imports:
         - cyordereddict
         - cyordereddict.benchmark
+    commands:
+        - conda inspect linkages -n _test cyordereddict  # [linux]
 
 about:
     home: https://github.com/shoyer/cyordereddict
-    license: BSD License
+    license: MIT
     summary: Cython implementation of Python's collections.OrderedDict
 
 extra:
