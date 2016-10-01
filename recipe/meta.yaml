@@ -23,7 +23,7 @@ test:
         - cyordereddict
         - cyordereddict.benchmark
     commands:
-        - conda inspect linkages -n _test cyordereddict  # [linux]
+        - conda inspect linkages -p ${PREFIX} cyordereddict  # [linux]
 
 about:
     home: https://github.com/shoyer/cyordereddict
