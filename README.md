@@ -11,6 +11,18 @@ Summary: Cython implementation of Python's collections.OrderedDict.
 
 
 
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/cyordereddict-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/cyordereddict-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/cyordereddict-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/cyordereddict-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/cyordereddict-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/cyordereddict-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/cyordereddict/badges/version.svg)](https://anaconda.org/conda-forge/cyordereddict)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/cyordereddict/badges/downloads.svg)](https://anaconda.org/conda-forge/cyordereddict)
+
 Installing cyordereddict
 ========================
 
@@ -31,7 +43,6 @@ It is possible to list all of the versions of `cyordereddict` available on your 
 ```
 conda search cyordereddict --channel conda-forge
 ```
-
 
 
 About conda-forge
@@ -67,18 +78,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/cyordereddict-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/cyordereddict-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/cyordereddict-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/cyordereddict-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/cyordereddict-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/cyordereddict-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/cyordereddict/badges/version.svg)](https://anaconda.org/conda-forge/cyordereddict)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/cyordereddict/badges/downloads.svg)](https://anaconda.org/conda-forge/cyordereddict)
 
 
 Updating cyordereddict-feedstock
