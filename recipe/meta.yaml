@@ -5,13 +5,12 @@ package:
   version: {{ version }}
 
 source:
-  fn: cyordereddict-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/c/cyordereddict/cyordereddict-{{ version }}.tar.gz
   sha256: d9b2c31796999770801a9a49403b8cb49510ecb64e5d1e9d4763ed44f2d5a76e
 
 build:
   number: 2
-  script: python setup.py install
+  script: python -m pip install --no-deps --ignore-installed .
 
 requirements:
   build:
@@ -19,6 +18,7 @@ requirements:
   host:
     - python
     - cython
+    - pip
   run:
     - python
 
@@ -26,12 +26,11 @@ test:
   imports:
     - cyordereddict
     - cyordereddict.benchmark
-  #commands:
-    #- conda inspect linkages -p $PREFIX cyordereddict  # [not win]
 
 about:
   home: https://github.com/shoyer/cyordereddict
   license: MIT
+  license_file: LICENSE.txt
   summary: "Cython implementation of Python's collections.OrderedDict."
 
 extra:
